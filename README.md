@@ -1,12 +1,19 @@
 # Практическая работа 6 - Итоговый проект
 
 ## Как сделать чтобы работало?
+
+### Вариант 1: Локальный запуск
 - Скачайте файлы и откройте папку через IntelliJ IDE.
 - Создайте в pgadmin4 базу данных с именем - air, остальное создастся автоматически
 - Поменять username и password в файле application.yaml
 - Запустите код через файл Project2Application
 - Запустите скрипт [data.sql](https://github.com/Archive-of-practical-work-for-the-MPT/Spring-Educational-Practice/tree/avia/src/main/resources/db) чтобы добавить тестовые данные (!важно делать после запуска сайта)
 - Открыть в браузере http://localhost:8080
+
+### Вариант 2: Запуск с помощью Docker (рекомендуется)
+- Убедитесь, что у вас установлен Docker и Docker Compose
+- Выполните команду: `docker-compose up --build`
+- Откройте в браузере http://localhost:8080
 
 ## Цель
 
